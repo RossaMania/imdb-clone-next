@@ -1,8 +1,8 @@
-import React from 'react'
-import MenuItem from './MenuItem'
+import React from "react"
+import MenuItem from "./MenuItem"
 import { AiFillHome } from "react-icons/ai";
 
-export const Header = () => {
+const Header = () => {
   return (
     <div>
       <div>
@@ -13,3 +13,5 @@ export const Header = () => {
     </div>
   )
 }
+
+export default Header;
