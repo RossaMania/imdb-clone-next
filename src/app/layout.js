@@ -13,8 +13,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html async="" lang="en">
-      <Providers>
-        <body className={inter.className}>
+      <body className={inter.className}>
+        <Providers>
           {/* Header */}
           <Header />
 
@@ -22,8 +22,8 @@ export default function RootLayout({ children }) {
 
           {/* Search */}
           {children}
-        </body>
-      </Providers>
+        </Providers>
+      </body>
     </html>
   );
 }
