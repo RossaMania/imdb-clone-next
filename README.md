@@ -1,3 +1,16 @@
+# IMDb Clone App
+
+## "The best thing to do is to clone an app's functionality the best you can to figure out how it works. Then, use that as inspiration for your own apps." -- A bunch of people on the Internet
+
+This is a clone of the Internet Movie Database using Next JS and The Movie Database API.
+
+## Features
+- Styling with Tailwind CSS.
+- Top Rated and Trending pages.
+- An About page.
+- Pages for individual movies.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
