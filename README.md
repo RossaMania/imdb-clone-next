@@ -4,6 +4,8 @@
 
 This is a clone of the Internet Movie Database using Next JS and The Movie Database API.
 
+### I love movies, so once I get this completed, I would like to use this as inspiration for other movie-themed apps.
+
 ## Features
 - Styling with Tailwind CSS.
 - Top Rated and Trending pages.
