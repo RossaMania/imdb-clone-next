@@ -14,9 +14,13 @@ const Card = ({ result }) => {
           height={300}
           alt={result.original_title}
           className="sm:rounded-t-lg group-hover:opacity-80 transition-opacity duration-200"
+          style={{ maxWidth: "100%", height: "auto" }}
           placeholder="blur"
           blurDataURL="/spinner.svg"
         />
+        <div className="p-2">
+          <p className="line-clamp-2">{result.overview}</p>
+        </div>
       </Link>
     </div>
   );
