@@ -7,20 +7,21 @@ const About = () => {
       <p>
         Welcome to our movie database website! We are a team of passionate movie
         enthusiasts who have come together to create a one-stop destination for
-        all of your movie-related needs.
+        all of your movie-related needs. This product uses the TMDB API but is
+        not endorsed or certified by TMDB.
       </p>
       <p>
         Our website is designed to provide you with a comprehensive database of
         movies from all around the world, along with the latest news, reviews,
-        and trailers. Our movie database uses data provided by The Movie
-        Database (TMDb) which is constantly updated, ensuring that you have
-        access to the latest and greatest in the world of cinema. You can search
-        for movies by title, director, actor, genre, or release date, making it
-        easy to find the perfect movie for any occasion!
+        and trailers. Our movie database uses the API provided by The Movie
+        Database (TMDB) ensuring that you have access to the latest and
+        greatest in the world of cinema. You can search for movies by title,
+        director, actor, genre, or release date, making it easy to find the
+        perfect movie for any occasion!
       </p>
       <p>
         In addition to our extensive movie database provided by The Movie
-        Database (TMDb), we also offer a platform for movie lovers to connect
+        Database (TMDB), we also offer a platform for movie lovers to connect
         and share their thoughts on the latest releases. Our community section
         includes a forum where you can discuss your favorite films with
         like-minded individuals and read reviews and ratings from other users.
