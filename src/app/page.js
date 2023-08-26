@@ -22,5 +22,5 @@ https://api.themoviedb.org/3/${
 
   console.log(results);
 
-  return <h1 className="text-red-400"><Results results={results} /></h1>;
+  return <h1><Results results={results} /></h1>;
 }
