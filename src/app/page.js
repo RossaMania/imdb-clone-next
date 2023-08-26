@@ -1,3 +1,5 @@
+import Results from "@/components/Results";
+
 const API_KEY = process.env.API_KEY;
 
 export default async function Home({ searchParams }) {
@@ -20,5 +22,5 @@ https://api.themoviedb.org/3/${
 
   console.log(results);
 
-  return <h1 className="text-red-400">HOME</h1>;
+  return <h1 className="text-red-400"><Results results={results} /></h1>;
 }
