@@ -12,8 +12,10 @@ const Card = ({ result }) => {
           }`}
           width={500}
           height={300}
-          alt="Movie Poster"
+          alt={result.original_title}
           className="sm:rounded-t-lg group-hover:opacity-80 transition-opacity duration-200"
+          placeholder="blur"
+          blurDataURL="/spinner.svg"
         />
       </Link>
     </div>
