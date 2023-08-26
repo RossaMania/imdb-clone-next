@@ -20,7 +20,5 @@ https://api.themoviedb.org/3/${
 
   const results = data.results;
 
-  console.log(results);
-
   return <h1><Results results={results} /></h1>;
 }
