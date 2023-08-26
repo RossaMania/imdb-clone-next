@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react"
 
 const loading = () => {
   return (
-    <div>Loading...</div>
+    <div className="flex justify-center"><img className="h-96" src="spinner.svg" alt="loading..." /></div>
   )
 }
 
