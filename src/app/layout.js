@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html async="" lang="en">
+    <html>
       <body>
         <Providers>
           {/* Header */}
