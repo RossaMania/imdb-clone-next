@@ -1,6 +1,8 @@
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+
+import { FiThumbsUp } from "react-icons/fi";
 
 const Card = ({ result }) => {
   return (
@@ -21,6 +23,10 @@ const Card = ({ result }) => {
         <div className="p-2">
           <p className="line-clamp-2 text-md">{result.overview}</p>
           <h2 className="truncate text-lg font-bold">{result.title || result.name}</h2>
+          <p className="flex item-center">
+          {result.release_date || result.first_air_date}
+          <FiThumbsUp className="h-5 mr-1 ml-3"/> {result.vote_count}
+          </p>
         </div>
       </Link>
     </div>
