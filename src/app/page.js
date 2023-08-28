@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import Results from "@/components/Results";
 
 const API_KEY = process.env.API_KEY;
@@ -20,5 +22,9 @@ https://api.themoviedb.org/3/${
 
   const results = data.results;
 
-  return <h1><Results results={results} /></h1>;
+  return (
+    <h1>
+      <Results results={results} />
+    </h1>
+  );
 }
