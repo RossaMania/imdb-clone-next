@@ -25,7 +25,7 @@ const MoviePage = async ({ params }) => {
           }`}
           width={500}
           height={300}
-          alt={movie.title}
+          alt="No poster found!"
           className="rounded-lg"
           style={{ maxWidth: "100%", height: "100%" }}
           placeholder="blur"
