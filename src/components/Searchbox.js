@@ -1,8 +1,10 @@
-import React from 'react'
+import React from "react"
 
 const Searchbox = () => {
   return (
-    <div>Searchbox</div>
+    <form>
+      <input type="text" placeholder="Search keywords..." className="w-full h-14 rounded-sm placeholder-gray-500 outline-none bg-transparent"/>
+    </form>
   )
 }
 
