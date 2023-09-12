@@ -26,6 +26,9 @@ const About = () => {
         contact us. We are always looking for ways to improve and enhance the
         use experience on our website. Happy browsing!
       </p>
+      <div>
+        <img src="blue_square_2-tmdb.svg" alt="TMDB logo"/>
+      </div>
     </div>
   );
 };
